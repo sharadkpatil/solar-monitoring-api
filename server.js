@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express();
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 3000;
 const MONGO_URI = process.env.MONGO_URI || "YOUR_MONGODB_ATLAS_URI";
 
 // Middleware
